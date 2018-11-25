@@ -5,17 +5,16 @@
    }
    return empty;
  }
-function johnLennonFacts(){
-  var newFacts = [];
-  var i = 0
-  while (i < facts.length) {
-    newFacts.push(facts[i] + "!!!")
-    i++;
+function johnLennonFacts(array){
+  var i = 0;
+  
+  while (i < array.length) {
+    
   }
-  return newFacts;
-}
 
-function iLoveTheBeatles(num) {
+
+
+ function iLoveTheBeatles(num) {
   var phrases = [];
   do {
     phrases.push("I love the Beatles!");
