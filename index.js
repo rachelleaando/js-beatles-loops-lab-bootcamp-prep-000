@@ -14,9 +14,11 @@ function johnLennonFacts(array){
   "He hated the sound of his own voice"
 ];
   while (i < array.length) {
-    array.push()
+    array.push(facts + "!!!");
+    i++;
   }
-
+  return array;
+}
 
 
  function iLoveTheBeatles(num) {
